@@ -16,5 +16,5 @@ Kêt quả thực hiện <br>
 1/ Mạng nội bộ 3 máy ảo hoạt động thông suốt (ping phản hồi < 1ms, 0% packet loss). <br>
 2/ Hai cổng quản trị 22 (SSH) và 23 (Telnet) đều ở trạng thái LISTEN trên Server. <br>
 3/ Windows Client đăng nhập Telnet thành công vào Kali Server.<br>
-4/ Chưa thu thập thành luồng TCP Stream trên hark
+4/ Chưa thu thập thành luồng TCP Stream trên Wireshark
 
