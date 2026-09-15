@@ -3,7 +3,7 @@ Mssv: 1150070037 <br>
 Bài lab 1.1 Cài đặt và cấu hình môi trường <br>
 Bài lab 1.2 BẮT GÓI TIN Telnet – SSH <br>
 <br>
-Nội dung đã thực hiện<br>
+Nội dung đã thực hiện LAB 1.2<br>
 1/ Thiết lập mô hình 3 máy ảo chung mạng LAN Segment: Kali Server (10.0.0.1/24), Windows 10 Client (10.0.0.2/24) và Windows 10 Attacker (10.0.0.3/24). <br>
 2/ Cài đặt gói openssh-server và inetutils-telnetd trên Kali Linux.<br>
 3/ Xử lý lỗi hệ thống trên Kali: mở khóa inetd (systemctl unmask inetd), khai báo quyền root và binary telnetd trong /etc/inetd.conf để kích hoạt cổng 23.<br>
