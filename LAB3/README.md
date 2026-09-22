@@ -9,13 +9,13 @@
 ## 2. Phiên bản môi trường thực hành
 | Thành phần | Phiên bản | Vai trò |
 | :--- | :--- | :--- |
-| **Ảo hóa** | VMware® Workstation Pro 26H1u1[cite: 19] | |
-| **Máy ảo** | Windows 11 Pro, Version 25H2, OS Build 26200.8037[cite: 19] | Pro[cite: 19] |
-| **Sysmon** | 15.22[cite: 19] | |
-| **Autoruns** | 14.3[cite: 19] | |
-| **Process Explorer** | 17.14[cite: 19] | |
-| **Python** | 3.14.7[cite: 19] | |
-| **Wireshark** | 4.6.8 (v4.6.8-0-ge677bf052328)[cite: 19] | |
+| **Ảo hóa** | VMware® Workstation Pro 26H1u1 | |
+| **Máy ảo** | Windows 11 Pro, Version 25H2, OS Build 26200.8037 | Pro |
+| **Sysmon** | 15.22 | |
+| **Autoruns** | 14.3 | |
+| **Process Explorer** | 17.14 | |
+| **Python** | 3.14.7 | |
+| **Wireshark** | 4.6.8 (v4.6.8-0-ge677bf052328) | |
 
 ---
 
