@@ -2,6 +2,7 @@
 
 ## 1. Thông tin sinh viên
 * **Họ và tên:** Trần Mỹ Quyên
+* **Lớp:** 11_TMĐT
 * **Mã số sinh viên (MSSV):** 1150070037
 * **Tên Lab:** Lab 3 - Nhận diện và ứng phó các mối đe dọa đến an toàn thông tin
 ---
