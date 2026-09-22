@@ -19,18 +19,22 @@
 
 ---
 
-## 3. Cách dựng môi trường
-1. Tạo máy ảo Windows 11 trên VMware Workstation với cấu hình mạng **Host-only** và tạo snapshot sạch (`LAB3_CLEAN`).
-2. Mở PowerShell với quyền Administrator, tạo cấu trúc thư mục làm việc tại `C:\LAB3` (bao gồm các thư mục `Evidence`, `Tools`, `Downloads`, `assets`)[cite: 1].
-3. Giải nén và chuẩn bị bộ công cụ mã nguồn phục vụ bài lab[cite: 1].
+## 3. Thực hành dựng môi trường
+* **Bước 1.** Tạo máy ảo Windows 11 Pro trên VMware Workstation Pro với cấu hình tối thiểu 2 vCPU, 5.9 GB RAM, cấu hình card mạng ở chế độ **Host-only**.
+* **Bước 2.** Tạo cấu trúc thư mục làm việc tại `C:\LAB3` (bao gồm các thư mục con như `Evidence`, `Tools`, `Downloads`, `assets`).
+* **Bước 3.** Giải nén gói dữ liệu bài lab `LAB3_Threats_Assets.zip` vào thư mục làm việc.
+* **Bước 4.** Tiến hành cài đặt Python phiên bản `3.14.7` và Wireshark phiên bản `4.6.8` phục vụ công tác phân tích lưu lượng mạng và mã nguồn.
+* **Bước 5.** Tải và triển khai bộ công cụ Sysinternals Suite (Sysmon, Autoruns, Process Explorer) từ trang chủ Microsoft để phục vụ giám sát tiến trình và hệ thống.
 
 ---
 
 ## 4. Các tình huống đã thực hiện và kết quả (PASS / FAIL)
 
-| STT | Tình huống thực hành | Trạng thái kết quả | Bằng chứng / Tệp lưu trữ |
-| :---: | :--- | :---: | :--- |
-| **TH1** | Xác định tài sản, lỗ hổng, mối đe dọa, rủi ro và phân loại đe dọa | **PASS**[cite: 1] | Hoàn thành bảng Risk Register và phân loại 5 nhóm nguồn đe dọa trong báo cáo[cite: 1]. |
-| **TH2** | Kiểm chứng chu trình phát hiện mã độc bằng EICAR | **PASS**[cite: 1] | `defender_eicar.txt`, `H4_ProtectionHistory_EICAR.png`[cite: 1]. |
-| **TH3** | Tấn công mật khẩu, tạo tài khoản lab3user, cấu hình audit log và lọc sự kiện | **PASS**[cite: 1] | `auth_events_before_rotation.txt`, `H5_Event4625.png`[cite: 1]. |
-| **TH4 (Đang thực hiện)** | Cài đặt Sysmon, ghi nhận Process Create (Event ID 1) và thiết lập Persistence cơ bản | **Đang tiến hành** (Đã xong phần cấu hình Sysmon, kiểm tra Event ID 1 và chuẩn bị lệnh tạo Persistence)[cite: 1]. | `H6_Sysmon_Event1.png`[cite: 1]. |
+| STT | Tình huống thực hành | Trạng thái kết quả |
+| :---: | :--- | :---: |
+| **TH1** | Xác định tài sản, lỗ hổng, mối đe dọa, rủi ro và phân loại đe dọa | **PASS** |
+| **TH2** | Kiểm chứng chu trình phát hiện mã độc bằng EICAR | **PASS** |
+| **TH3** | Tấn công mật khẩu, tạo tài khoản lab3user, cấu hình audit log và lọc sự kiện | **PASS** |
+| **TH4 (Đang thực hiện)** | Cài đặt Sysmon, ghi nhận Process Create (Event ID 1) và thiết lập Persistence cơ bản | **Đang tiến hành** (Đã hoàn thành cài đặt Sysmon, kiểm tra Event ID 1 và chuẩn bị lệnh chạy Persistence). |
+
+---
