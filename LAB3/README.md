@@ -20,7 +20,7 @@
 ---
 
 ## 3. Thực hành dựng môi trường
-* **Bước 1.** Tạo máy ảo Windows 11 Pro trên VMware Workstation Pro với cấu hình tối thiểu 2 vCPU, 5.9 GB RAM, cấu hình card mạng ở chế độ **Host-only**.
+* **Bước 1.** Tạo máy ảo Windows 11 Pro trên VMware Workstation Pro với cấu hình gồm 2 vCPU, 6 GB RAM, 64GB đĩa, cấu hình card mạng ở chế độ **Host-only**.
 * **Bước 2.** Tạo cấu trúc thư mục làm việc tại `C:\LAB3` (bao gồm các thư mục con như `Evidence`, `Tools`, `Downloads`, `assets`).
 * **Bước 3.** Giải nén gói dữ liệu bài lab `LAB3_Threats_Assets.zip` vào thư mục làm việc.
 * **Bước 4.** Tiến hành cài đặt Python phiên bản `3.14.7` và Wireshark phiên bản `4.6.8` phục vụ công tác phân tích lưu lượng mạng và mã nguồn.
