@@ -4,7 +4,6 @@
 * **Họ và tên:** Trần Mỹ Quyên
 * **Lớp:** 11_TMĐT
 * **Mã số sinh viên (MSSV):** 1150070037
-* **Tên Lab:** Lab 3 - Nhận diện và ứng phó các mối đe dọa đến an toàn thông tin
 ---
 
 ## 2. Phiên bản môi trường thực hành
@@ -32,10 +31,11 @@
 ## 4. Các tình huống đã thực hiện và kết quả (PASS / FAIL)
 
 | STT | Tình huống thực hành | Trạng thái kết quả |
-| :---: | :--- | :---: |
+| :--- | :--- | :--- |
 | **TH1** | Xác định tài sản, lỗ hổng, mối đe dọa, rủi ro và phân loại đe dọa | **PASS** |
 | **TH2** | Kiểm chứng chu trình phát hiện mã độc bằng EICAR | **PASS** |
 | **TH3** | Tấn công mật khẩu, tạo tài khoản lab3user, cấu hình audit log và lọc sự kiện | **PASS** |
-| **TH4 (Đang thực hiện)** | Cài đặt Sysmon, ghi nhận Process Create (Event ID 1) và thiết lập Persistence cơ bản | **Đang tiến hành** (Đã hoàn thành cài đặt Sysmon, kiểm tra Event ID 1 và chuẩn bị lệnh chạy Persistence). |
-
----
+| **TH4** | Cài đặt Sysmon, ghi nhận Process Create (Event ID 1) và thiết lập Persistence cơ bản | **PASS** |
+| **TH5** | Bắt gói tin mạng HTTP và HTTPS (TLS/443) bằng Wireshark | **PASS** |
+| **TH6** | DoS (tải cục bộ có giới hạn), phân tích DDoS dataset và Mail Bombing log offline | **PASS** |
+| **TH7** | Nhận diện Social Engineering, phân tích email Phishing và phân loại các case trong CSV | **PASS** |
