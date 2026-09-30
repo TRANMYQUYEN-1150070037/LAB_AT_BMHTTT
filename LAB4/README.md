@@ -15,7 +15,7 @@
   * Hệ điều hành: **Kali Linux**
   * Công cụ rà quét: **Nmap 7.99**
 * **Máy mục tiêu 1 (Target 1 - Linux):**
-  * Hệ điều hành: **Metasploitable 2** (Hệ thống Linux dựng sẵn nhiều dịch vụ và cổng mở phục vụ kiểm thử an toàn thông tin)
+  * Hệ điều hành: **Metasploitable 2** 
 * **Máy mục tiêu 2 (Target 2 - Windows):**
   * Hệ điều hành: **Microsoft Windows 11** 
   * Dịch vụ kiểm thử: Dịch vụ chia sẻ tệp tin **SMB (Server Message Block)** trên cổng `445/tcp` (`microsoft-ds`)
