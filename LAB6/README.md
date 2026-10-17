@@ -1,8 +1,8 @@
 ## 1. Thông tin sinh viên
 * **Họ và tên:** Trần Mỹ Quyên
-* **Mã số sinh viên (MSSV):** 1150070037
+* **Mã số sinh viên :** 1150070037
 * **Lớp:** 11_TMĐT
-* **Tên bài thực hành:** BÀI LAB 5: THIẾT LẬP MÔ HÌNH TƯỜNG LỬA pfSense
+* **Tên bài thực hành:** LAB6: XÁC THỰC ACTIVE DIRECTORY VÀ CHÍNH SÁCH TRUY CẬP TRÊN pfSense
 
 
 ## BÁO CÁO THỰC HÀNH: 
