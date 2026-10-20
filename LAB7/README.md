@@ -1,1 +1,7 @@
-LAB7
+THÔNG TIN 
+Họ và tên: Trần Mỹ Quyên
+Lớp: 11_TMĐT
+MSSV: 1150070037
+Tên LAB: LAB 7 XÂY DỰNG CHÍNH SÁCH WEB PROTECTION TRÊN MÔ HÌNH pfSense + WEB PROXY
+
+KẾT QUẢ THỰC HÀNH
