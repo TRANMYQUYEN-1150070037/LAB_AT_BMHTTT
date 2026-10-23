@@ -1,10 +1,10 @@
-** THÔNG TIN </br>
+##  THÔNG TIN </br>
 Họ và tên: Trần Mỹ Quyên </br>
 Lớp: 11_TMĐT </br>
 MSSV: 1150070037 </br>
 Tên LAB: LAB 7 XÂY DỰNG CHÍNH SÁCH WEB PROTECTION TRÊN MÔ HÌNH pfSense + WEB PROXY </br>
 </br>
-** KẾT QUẢ THỰC HÀNH </br>
+##  KẾT QUẢ THỰC HÀNH </br>
 ## II. Các nội dung thực hành đã hoàn thành
 ### 1. Chuẩn bị hạ tầng và luồng dịch vụ Proxy
 - **Cấu hình mạng WEB-PROXY:** Gán IP tĩnh `10.6.0.30/24` cho interface `ens33`, Gateway trỏ về pfSense `10.6.0.1`.
