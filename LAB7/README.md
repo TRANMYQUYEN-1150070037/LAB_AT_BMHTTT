@@ -5,7 +5,6 @@ MSSV: 1150070037 </br>
 Tên LAB: LAB 7 XÂY DỰNG CHÍNH SÁCH WEB PROTECTION TRÊN MÔ HÌNH pfSense + WEB PROXY </br>
 </br>
 ##  KẾT QUẢ THỰC HÀNH </br>
-## II. Các nội dung thực hành đã hoàn thành
 ### 1. Chuẩn bị hạ tầng và luồng dịch vụ Proxy
 - **Cấu hình mạng WEB-PROXY:** Gán IP tĩnh `10.6.0.30/24` cho interface `ens33`, Gateway trỏ về pfSense `10.6.0.1`.
 - **Kiểm tra luồng E2Guardian $\rightarrow$ Squid:** Cả hai tiến trình đều lắng nghe chuẩn xác:
