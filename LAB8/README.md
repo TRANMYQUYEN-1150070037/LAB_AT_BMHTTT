@@ -15,7 +15,7 @@
 * **Cài đặt và cấu hình BIND9:** 
   * Cài đặt gói `bind9` và `dnsutils` trên nền Ubuntu Server 24.04
   * Cấu hình chuyển tiếp (forward) phân giải tên miền `external.lab9.test` trỏ về máy **APP-TEST** (`172.16.6.20`)
-  * Kiểm tra cú pháp zone và khởi động dịch vụ BIND9 thành công (`named -checkconf`, `systemctl start bind9`)
+  * khởi động dịch vụ BIND9 thành công (`named -checkconf`, `systemctl start bind9`)
 
 ## 3. Cấu hình Victim và Khởi động Authoritative DNS (Phần E, F)
 * **Cấu hình Victim:** Đảm bảo máy Victim (`10.9.0.100`) nhận phân giải DNS trực tiếp từ DNS-Server (`10.9.0.10`)
