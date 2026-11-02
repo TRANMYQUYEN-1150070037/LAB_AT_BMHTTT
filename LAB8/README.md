@@ -2,7 +2,7 @@
 
 ## Thông tin sinh viên
 - **Họ và tên:** Trần Mỹ Quyên
-- **Mã sinh viên / Lớp:** 11_ĐH_TMDT / MSSV: ** 1150070037
+- **Mã sinh viên - Lớp:** 1150070037 - 11_ĐH_TMĐT
 - **Bài thực hành: **LAB 8 LOCAL DNS ATTACK DNS SPOOFING VÀ CACHE POISONING TRONG MẠNG ẢO CÔ LẬP
 ---
 
